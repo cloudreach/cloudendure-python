@@ -7,5 +7,5 @@ resource "aws_sqs_queue" "event_queue" {
 }
 
 resource "aws_sqs_queue" "dead_letter_queue" {
-  name                      = "cloudendure-dead-letter-queue"
+  name = "cloudendure-dead-letter-queue"
 }

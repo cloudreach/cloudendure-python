@@ -37,7 +37,8 @@ def lambda_handler(event: Dict[str, Any], context: Any) -> str:
     )
 
     for tag in instance.tags:
-        ec2_image.create_tags(Tags=[{"Key": tag["Key"], "Value": tag["Value"]}])
+        if "aws:" not in tag["Key"]:
+            ec2_image.create_tags(Tags=[{"Key": tag["Key"], "Value": tag["Value"]}])
 
     instance.create_tags(Tags=[{"Key": "CloneStatus", "Value": "IMAGE_CREATED"}])
 

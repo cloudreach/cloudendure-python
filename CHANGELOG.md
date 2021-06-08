@@ -1,5 +1,14 @@
 # Change Log
 
+## [v0.3.0](https://github.com/cloudreach/cloudendure-python/tree/v0.3.0) (2021-06-08)
+[Full Changelog](https://github.com/cloudreach/cloudendure-python/compare/v0.2.1...v0.3.0)
+
+**Refactored:**
+
+- Refactored for Cloudreach
+
+######
+
 ## [v0.2.1](https://github.com/2ndWatch/cloudendure-python/tree/v0.2.1) (2020-03-24)
 [Full Changelog](https://github.com/2ndWatch/cloudendure-python/compare/v0.2.0...v0.2.1)
 

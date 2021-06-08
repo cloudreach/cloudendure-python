@@ -114,6 +114,7 @@ venv.bak/
 .terraform/
 terraform.tfstate*
 *.tfvars
+*terraform.lock.hcl
 
 # vscode
 .vscode/
